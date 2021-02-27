@@ -38,22 +38,185 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 ## **Data report overview**
 The dataset examined has the following dimensions:
 
-
-|Feature                 |  Result|
-|-----------------------:|-------:|
-|Number of observations  |     180|
-|Number of variables     |      88|
-
-Feature2|Result2
----|---
+Feature|Result
+:---|---:
 Number of observations| 180
-Nuber of variables| 88
-
-
-
+Number of variables| 88
 
 
 ## **Codebook summary table**
+
+Index|Variable Description|Class|Range|Description
+:---|:---|:---|:---|---:|:---
+1|**Subject**|factor|[-1, 1]|Identifies the human subject.             
+2|**Activity**|factor|[-1, 1]|Identifies the activity.             
+3|**Avg\_tBodyAcc-mean-X**|numeric|[-1, 1]|Time domain, Average of means for body acceleration on X axis.             
+4|**Avg\_tBodyAcc-mean-Y**|numeric|[-1, 1]|Time domain, Average of means for body acceleration on Y axis.             
+5|**Avg\_tBodyAcc-mean-Z**|numeric|[-1, 1]|Time domain, Average of means for body acceleration on Z axis.             
+6|**Avg\_tBodyAcc-std-X**|numeric|[-1, 1]|Time domain, Average of standard deviations for body acceleration on X axis.             
+7|**Avg\_tBodyAcc-std-Y**|numeric|[-1, 1]|Time domain, Average of standard deviations for body acceleration on Y axis.             
+
+        **[Avg\_tBodyAcc-std-Z]**                       numeric          180  0.00 %   Time domain, Average of standard deviations for body acceleration on Z axis.             
+
+        **[Avg\_tGravityAcc-mean-X]**                   numeric          180  0.00 %   Time domain, Average of means for gravity acceleration on X axis.              
+
+        **[Avg\_tGravityAcc-mean-Y]**                   numeric          180  0.00 %   Time domain, Average of means for gravity acceleration on Y axis.             
+
+        **[Avg\_tGravityAcc-mean-Z]**                   numeric          180  0.00 %   Time domain, Average of means for gravity acceleration on Z axis.             
+
+        **[Avg\_tGravityAcc-std-X]**                    numeric          180  0.00 %   Time domain, Average of standard deviations for gravity acceleration on X axis.             
+
+        **[Avg\_tGravityAcc-std-Y]**                    numeric          180  0.00 %   Time domain, Average of standard deviations for gravity acceleration on Y axis.             
+
+        **[Avg\_tGravityAcc-std-Z]**                    numeric          180  0.00 %   Time domain, Average of standard deviations for gravity acceleration on Z axis.             
+
+        **[Avg\_tBodyAccJerk-mean-X]**                  numeric          180  0.00 %   Time domain, Average of means for the jerk of body acceleration on X axis.             
+
+        **[Avg\_tBodyAccJerk-mean-Y]**                  numeric          180  0.00 %   Time domain, Average of means for the jerk of body acceleration on Y axis.             
+
+        **[Avg\_tBodyAccJerk-mean-Z]**                  numeric          180  0.00 %   Time domain, Average of means for the jerk of body acceleration on Z axis             
+
+        **[Avg\_tBodyAccJerk-std-X]**                   numeric          180  0.00 %   Time domain, Average of standard deviations for the jerk of body acceleration on X axis.             
+
+        **[Avg\_tBodyAccJerk-std-Y]**                   numeric          180  0.00 %   Time domain, Average of standard deviations for the jerk of body acceleration on Y axis.             
+
+        **[Avg\_tBodyAccJerk-std-Z]**                   numeric          180  0.00 %   Time domain, Average of standard deviations for the jerk of body acceleration on Z axis.             
+
+        **[Avg\_tBodyGyro-mean-X]**                     numeric          180  0.00 %   Time domain, Average of means for angular velocity on X axis.             
+
+        **[Avg\_tBodyGyro-mean-Y]**                     numeric          180  0.00 %   Time domain, Average of means for angular velocity on Y axis.             
+
+        **[Avg\_tBodyGyro-mean-Z]**                     numeric          180  0.00 %   Time domain, Average of means for angular velocity on Z axis.             
+
+        **[Avg\_tBodyGyro-std-X]**                      numeric          180  0.00 %   Time domain, Average of standard deviations for angular velocity on X axis.             
+
+        **[Avg\_tBodyGyro-std-Y]**                      numeric          180  0.00 %   Time domain, Average of standard deviations for angular velocity on Y axis.             
+
+        **[Avg\_tBodyGyro-std-Z]**                      numeric          180  0.00 %   Time domain, Average of standard deviations for angular velocity on Z axis.             
+
+        **[Avg\_tBodyGyroJerk-mean-X]**                 numeric          180  0.00 %   Time domain, Average of means for the jerk of angular velocity on X axis.            
+
+        **[Avg\_tBodyGyroJerk-mean-Y]**                 numeric          180  0.00 %   Time domain, Average of means for the jerk of angular velocity on Y axis.             
+
+        **[Avg\_tBodyGyroJerk-mean-Z]**                 numeric          180  0.00 %   Time domain, Average of means for the jerk of angular velocity on Z axis.             
+
+        **[Avg\_tBodyGyroJerk-std-X]**                  numeric          180  0.00 %   Time domain, Average of standard deviations for the jerk of angular velocity on X axis.             
+
+        **[Avg\_tBodyGyroJerk-std-Y]**                  numeric          180  0.00 %   Time domain, Average of standard deviations for the jerk of angular velocity on Y axis.             
+
+        **[Avg\_tBodyGyroJerk-std-Z]**                  numeric          180  0.00 %   Time domain, Average of standard deviations for the jerk of angular velocity on Z axis.             
+
+        **[Avg\_tBodyAccMag-mean]**                     numeric          180  0.00 %   Time domain, Average of standard deviations for the jerk of angular velocity on Z axis.             
+
+        **[Avg\_tBodyAccMag-std]**                      numeric          180  0.00 %   Time domain, Average of standard deviations for the magnitude of body acceleration.             
+
+        **[Avg\_tGravityAccMag-mean]**                  numeric          180  0.00 %   Time domain, Average of means for the magnitude of gravity acceleration.             
+
+        **[Avg\_tGravityAccMag-std]**                   numeric          180  0.00 %   Time domain, Average of standard deviations for the magnitude of gravity acceleration.             
+
+        **[Avg\_tBodyAccJerkMag-mean]**                 numeric          180  0.00 %   Time domain, Average of means for the magnitude of jerk, of body accelaration.             
+
+        **[Avg\_tBodyAccJerkMag-std]**                  numeric          180  0.00 %   Time domain, Average of standard deviations for the magnitude of jerk, of body accelaration.             
+
+        **[Avg\_tBodyGyroMag-mean]**                    numeric          180  0.00 %   Time domain, Average of means for the magnitude of angular velocity.             
+
+        **[Avg\_tBodyGyroMag-std]**                     numeric          180  0.00 %   Time domain, Average of standard deviations for the magnitude of angular velocity.             
+
+        **[Avg\_tBodyGyroJerkMag-mean]**                numeric          180  0.00 %   Time domain, Average of means for the magnitude of jerk, of the angular velocity.             
+
+        **[Avg\_tBodyGyroJerkMag-std]**                 numeric          180  0.00 %   Time domain, Average of standard deviations for the magnitude of jerk, of the angular velocity.             
+
+        **[Avg\_fBodyAcc-mean-X]**                      numeric          180  0.00 %   Frequency domain, Average of means for body acceleration on X axis.             
+
+        **[Avg\_fBodyAcc-mean-Y]**                      numeric          180  0.00 %   Frequency domain, Average of means for body acceleration on Y axis.             
+
+        **[Avg\_fBodyAcc-mean-Z]**                      numeric          180  0.00 %   Frequency domain, Average of means for body acceleration on Z axis.             
+
+        **[Avg\_fBodyAcc-std-X]**                       numeric          180  0.00 %   Frequency domain, Average of standard deviations for body acceleration on X axis.             
+
+        **[Avg\_fBodyAcc-std-Y]**                       numeric          180  0.00 %   Frequency domain, Average of standard deviations for body acceleration on Y axis.             
+
+        **[Avg\_fBodyAcc-std-Z]**                       numeric          180  0.00 %   Frequency domain, Average of standard deviations for body acceleration on Z axis.             
+
+        **[Avg\_fBodyAcc-meanFreq-X]**                  numeric          180  0.00 %   Frequency domain, Average of weighted means for body acceleration on Z axis.             
+
+        **[Avg\_fBodyAcc-meanFreq-Y]**                  numeric          180  0.00 %   Frequency domain, Average of weighted means for body acceleration on Y axis.             
+
+        **[Avg\_fBodyAcc-meanFreq-Z]**                  numeric          180  0.00 %   Frequency domain, Average of weighted means for body acceleration on Z axis.             
+
+        **[Avg\_fBodyAccJerk-mean-X]**                  numeric          180  0.00 %   Frequency domain, Average of means for the jerk of the body acceleration on X axis.             
+
+        **[Avg\_fBodyAccJerk-mean-Y]**                  numeric          180  0.00 %   Frequency domain, Average of means for the jerk of the body acceleration on Y axis.             
+
+        **[Avg\_fBodyAccJerk-mean-Z]**                  numeric          180  0.00 %   Frequency domain, Average of means for the jerk of the body acceleration on Z axis.             
+
+        **[Avg\_fBodyAccJerk-std-X]**                   numeric          180  0.00 %   Frequency domain, Average of standard deviations for the jerk of the body acceleration on X axis.             
+
+        **[Avg\_fBodyAccJerk-std-Y]**                   numeric          180  0.00 %   Frequency domain, Average of standard deviations for the jerk of the body acceleration on Y axis.             
+
+        **[Avg\_fBodyAccJerk-std-Z]**                   numeric          180  0.00 %   Frequency domain, Average of standard deviations for the jerk of the body acceleration on Z axis.             
+
+        **[Avg\_fBodyAccJerk-meanFreq-X]**              numeric          180  0.00 %   Frequency domain, Average of weighted means for the jerk of the body acceleration on X axis.             
+
+        **[Avg\_fBodyAccJerk-meanFreq-Y]**              numeric          180  0.00 %   Frequency domain, Average of weighted means for the jerk of the body acceleration on Y axis.             
+
+        **[Avg\_fBodyAccJerk-meanFreq-Z]**              numeric          180  0.00 %   Frequency domain, Average of weighted means for the jerk of the body acceleration on Z axis.             
+
+        **[Avg\_fBodyGyro-mean-X]**                     numeric          180  0.00 %   Frequency domain, Average of means for the jerk of angular velocity on X axis.             
+
+        **[Avg\_fBodyGyro-mean-Y]**                     numeric          180  0.00 %   Frequency domain, Average of means for the jerk of angular velocity on Y axis.             
+
+        **[Avg\_fBodyGyro-mean-Z]**                     numeric          180  0.00 %   Frequency domain, Average of means for the jerk of angular velocity on Z axis.             
+
+        **[Avg\_fBodyGyro-std-X]**                      numeric          180  0.00 %   Frequency domain, Average of standard deviations of angular velocity on X axis.             
+
+        **[Avg\_fBodyGyro-std-Y]**                      numeric          180  0.00 %   Frequency domain, Average of standard deviations of angular velocity on Y axis.             
+
+        **[Avg\_fBodyGyro-std-Z]**                      numeric          180  0.00 %   Frequency domain, Average of standard deviations of angular velocity on Z axis.             
+
+        **[Avg\_fBodyGyro-meanFreq-X]**                 numeric          180  0.00 %   Frequency domain, Average of weighted means of angular velocity on X axis.             
+
+        **[Avg\_fBodyGyro-meanFreq-Y]**                 numeric          180  0.00 %   Frequency domain, Average of weighted means of angular velocity on Y axis.             
+
+        **[Avg\_fBodyGyro-meanFreq-Z]**                 numeric          180  0.00 %   Frequency domain, Average of weighted means of angular velocity on Z axis.             
+
+        **[Avg\_fBodyAccMag-mean]**                     numeric          180  0.00 %   Frequency domain, Average of means of angular velocity.             
+
+        **[Avg\_fBodyAccMag-std]**                      numeric          180  0.00 %   Frequency domain, Average of standard deviations of angular velocity.             
+
+        **[Avg\_fBodyAccMag-meanFreq]**                 numeric          180  0.00 %   Frequency domain, Average of weighted means of angular velocity.             
+
+        **[Avg\_fBodyAccJerkMag-mean]**                 numeric          180  0.00 %   Frequency domain, Average of means for the jerk of angular velocity.             
+
+        **[Avg\_fBodyAccJerkMag-std]**                  numeric          180  0.00 %   Frequency domain, Average of standard deviations for the jerk of angular velocity.             
+
+        **[Avg\_fBodyAccJerkMag-meanFreq]**             numeric          180  0.00 %   Frequency domain, Average of weigthted means for the jerk of angular velocity.             
+
+        **[Avg\_fBodyGyroMag-mean]**                    numeric          180  0.00 %   Frequency domain, Average of means for the magnitude of angular velocity.             
+
+        **[Avg\_fBodyGyroMag-std]**                     numeric          180  0.00 %   Frequency domain, Average of standard deviations for the magnitude of angular velocity.             
+
+        **[Avg\_fBodyGyroMag-meanFreq]**                numeric          180  0.00 %   Frequency domain, Average of means for the magnitude of angular velocity.             
+
+        **[Avg\_fBodyGyroJerkMag-mean]**                numeric          180  0.00 %   Frequency domain, Average of means for the magnitude of jerk, of angular velocity.             
+
+        **[Avg\_fBodyGyroJerkMag-std]**                 numeric          180  0.00 %   Frequency domain, Average of standard deviation for the magnitude of jerk, of angular velocity.             
+
+        **[Avg\_fBodyGyroJerkMag-meanFreq]**            numeric          180  0.00 %   Frequency domain, Average of means for the magnitude of jerk, of angular velocity.            
+
+        **[Avg\_AngletBodyAccMean,gravity]**            numeric          180  0.00 %   Average of angle between means of body acceleration and gravity.          
+
+        **[Avg\_AngletBodyAccJerkMean,gravityMean]**    numeric          180  0.00 %   Average of angle between means for the jerk of body acceleration and means of gravity.             
+
+        **[Avg\_AngletBodyGyroMean,gravityMean]**       numeric          180  0.00 %   Average of angle between means of magnitude and means of gravity.             
+
+        **[Avg\_AngletBodyGyroJerkMean,gravityMean]**   numeric          180  0.00 %   Average of angle between means for the jerk of angular velocity and means of gravity.             
+
+        **[Avg\_AngleX,gravityMean]**                   numeric          180  0.00 %   Average of angle between AngleX and means of gravity.             
+
+        **[Avg\_AngleY,gravityMean]**                   numeric          180  0.00 %   Average of angle between AngleX and means of gravity.             
+
+        **[Avg\_AngleZ,gravityMean]**                   numeric          180  0.00 %   Average of angle between AngleX and means of gravity.
 
 ----------------------------------------------------------------------------------------------------
 Label   Variable                                        Class       # unique  Missing  Description  
