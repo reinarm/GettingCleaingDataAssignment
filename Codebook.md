@@ -47,7 +47,7 @@ Number of variables| 88
 ## **Codebook summary table**
 
 Index|Variable Description|Class|Range|Description
-:---|:---|:---|:---|---:|:---
+:---|:---|:---|:---|:---
 1|**Subject**|factor|[-1, 1]|Identifies the human subject.             
 2|**Activity**|factor|[-1, 1]|Identifies the activity.             
 3|**Avg\_tBodyAcc-mean-X**|numeric|[-1, 1]|Time domain, Average of means for body acceleration on X axis.             
