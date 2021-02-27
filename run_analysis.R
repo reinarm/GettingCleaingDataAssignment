@@ -1,4 +1,4 @@
-## Geting and Cleaing Data Assignment ##
+## Getting and Cleaing Data Assignment ##
 
 # This script reads in the data a the "UCI HAR Dataset
 

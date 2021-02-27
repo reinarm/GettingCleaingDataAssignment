@@ -1,4 +1,4 @@
-## Geting and Cleaing Data Assignment ##
+## Getting and Cleaing Data Assignment ##
 
 # This script downloads and extracts the "UCI HAR Dataset. To run this script,
 # it is necessary to set working directory first.
