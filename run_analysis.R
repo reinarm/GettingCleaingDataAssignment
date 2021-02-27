@@ -10,7 +10,7 @@
 
 # Set workong dirctory
 setwd("your_working_directory")
-setwd("~/RProgramming/05_JHU/GettingCleaningDataAssignment")
+
 
 # Load packages
 library(tidyverse)
