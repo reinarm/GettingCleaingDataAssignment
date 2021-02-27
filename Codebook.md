@@ -239,8 +239,6 @@ Label   Variable                                        Class       # unique  Mi
 # Variable list
 ## Subject
 
-\bminione
-
 -----------------------------------
 Feature                      Result
 ------------------------- ---------
@@ -255,22 +253,10 @@ Mode                            "1"
 Reference category                1
 -----------------------------------
 
-
-\emini
-\bminitwo
-
-\emini
-
-
 - Observed factor levels: \"1\", \"10\", \"11\", \"12\", \"13\", \"14\", \"15\", \"16\", \"17\", \"18\", \"19\", \"2\", \"20\", \"21\", \"22\", \"23\", \"24\", \"25\", \"26\", \"27\", \"28\", \"29\", \"3\", \"30\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\". 
 
 
-
-\fullline
-
 ## Activity
-
-\bminione
 
 -------------------------------------
 Feature                        Result
@@ -286,22 +272,10 @@ Mode                        "WALKING"
 Reference category            WALKING
 -------------------------------------
 
-
-\emini
-\bminitwo
-
-\emini
-
-
 - Observed factor levels: \"LAYING\", \"SITTING\", \"STANDING\", \"WALKING\", \"WALKING_DOWNSTAIRS\", \"WALKING_UPSTAIRS\". 
 
 
-
-\fullline
-
 ## Avg\_tBodyAcc-mean-X
-
-\bminione
 
 --------------------------------------
 Feature                         Result
@@ -320,19 +294,7 @@ Min. and max.                0.22; 0.3
 --------------------------------------
 
 
-\emini
-\bminitwo
-
-\emini
-
-
-
-
-\fullline
-
 ## Avg\_tBodyAcc-mean-Y
-
-\bminione
 
 ----------------------------------------
 Feature                           Result
@@ -351,19 +313,8 @@ Min. and max.                   -0.04; 0
 ----------------------------------------
 
 
-\emini
-\bminitwo
-
-\emini
-
-
-
-
-\fullline
-
 ## Avg\_tBodyAcc-mean-Z
 
-\bminione
 
 ----------------------------------------
 Feature                           Result
@@ -382,19 +333,7 @@ Min. and max.               -0.15; -0.08
 ----------------------------------------
 
 
-\emini
-\bminitwo
-
-\emini
-
-
-
-
-\fullline
-
 ## Avg\_tBodyAcc-std-X
-
-\bminione
 
 ---------------------------------------
 Feature                          Result
@@ -413,19 +352,7 @@ Min. and max.                  -1; 0.63
 ---------------------------------------
 
 
-\emini
-\bminitwo
-
-\emini
-
-
-
-
-\fullline
-
 ## Avg\_tBodyAcc-std-Y
-
-\bminione
 
 ----------------------------------------
 Feature                           Result
@@ -443,16 +370,6 @@ Median                             -0.51
 Min. and max.                -0.99; 0.62
 ----------------------------------------
 
-
-\emini
-\bminitwo
-
-\emini
-
-
-
-
-\fullline
 
 ## Avg\_tBodyAcc-std-Z
 
