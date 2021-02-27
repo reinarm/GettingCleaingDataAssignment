@@ -40,14 +40,14 @@ This is the main script. It
 4. label the data set with descriptive nams and  
 5. create a second tidy data set with the average of each variable.  
 
-At the end it exports the tidy data set as well as the merged Data. To avoid to read in and merge the data every time, it saves the merged Data as a .csv file.
+At the end it exports the tidy data set as well as the merged Data. To avoid to read in and merge the data every time, it saves the merged Data as a .txt file.
 
 <br>
 
-#### **tidy_data_set.csv**  
+#### **tidy_data_set.txt**  
 
 This data set is created by the script "run_analysis.R" and it contains the average of each variable for each subject and each activity. To read in the data, you can use the following command:  
-`read.csv("tidy_data_set.csv")`  
+`read.table("tidy_data_set.txt", header = TRUE)`  
 
 <br>
 

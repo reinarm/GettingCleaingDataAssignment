@@ -120,4 +120,4 @@ names(tidyData) <- c(names(tidyData[c(1, 2)]),
 
 
 # Export data set
-write.csv(tidyData, "tidy_data_set.csv", row.names = FALSE) 
+write.table(tidyData, "tidy_data_set.txt", row.names = FALSE)
