@@ -39,13 +39,11 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 The dataset examined has the following dimensions:
 
 
----------------------------------
-Feature                    Result
------------------------- --------
-Number of observations        180
-
-Number of variables            88
----------------------------------
+|Feature                 |  Result|
+|-----------------------:|-------:|
+|Number of observations  |     180|
+|                                 |
+|Number of variables     |      88|
 
 
 
